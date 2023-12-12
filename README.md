@@ -12,6 +12,7 @@ This project is about creating the list of employees in a website where employee
 - Spring Boot
 - Thymeleaf
 - MySQL
+- JQuery
 
 ## How to run:
 - Clone this project
