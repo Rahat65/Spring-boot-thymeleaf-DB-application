@@ -45,7 +45,7 @@ public class EmployeeController {
 //    }
     @GetMapping("/showUpdateForm")
     public ModelAndView showUpdateForm(@RequestParam Long employeeId){
-        ModelAndView mav = new ModelAndView("add-employee-form");
+        ModelAndView mav = new ModelAndView("update-employee-form");
         Employee existingEmployee= eRepo.findById(employeeId).get();
         mav.addObject("employee", existingEmployee);
         return mav;
